@@ -1,0 +1,54 @@
+.btn-container {
+  width: 20rem;
+  height: auto;
+  background: #222831; 
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #eeeeee; 
+  width: 2rem;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  color: #2e2e2e; 
+}
+
+.empty {
+  padding: 1rem;
+  margin: 0.3rem;
+}
+
+.movesTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+}
+
+.btn-active {
+  background: linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); 
+  color: white;
+}
+
+.newGame-btn {
+  margin: 15% auto auto 40%;
+  padding: 0.8rem;
+  background-color: #00adb5;
+  border: none;
+  cursor: pointer;
+  color: white; 
+}
+
+.disable-buttons {
+  pointer-events: none;
+  opacity: 0.5;
+}
